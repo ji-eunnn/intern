@@ -53,8 +53,8 @@ from tqdm import tqdm
 # db connect
 def db_connection(host_name='ds'):
     host_url = "db.ds.mycelebs.com"
-    user_nm = "j_eungg"
-    passwd = "mycelebs"
+    user_nm = 
+    passwd = 
     port_num = 3306
     conn = pymysql.connect(host=host_url, user=user_nm, passwd=passwd, port = port_num, charset='utf8',
                            cursorclass=pymysql.cursors.DictCursor)
