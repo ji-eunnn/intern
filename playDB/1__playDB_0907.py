@@ -40,8 +40,8 @@ import random
 
 def db_connection(host_name='ds'):
     host_url = "db.ds.mycelebs.com"
-    user_nm = "j_eungg"
-    passwd = "wldms10529"
+    user_nm = 
+    passwd = 
     port_num = 3306
     db_name = "star_ko"
     conn = pymysql.connect(host=host_url, user=user_nm, passwd=passwd, port=port_num, charset='utf8',
