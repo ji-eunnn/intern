@@ -2,7 +2,7 @@
 
 목표 : kobis_people_list 내 데이터와 celeb 내 데이터를 "자동으로" 매핑하자 !
 매핑 대상 : 배우/감독/조감독이고, 네이버 프로필이 있고, 한국인인 사람  (대상은 바뀔 수 있음)
-주의 사항 : 네이버 크롤링 할 때 조금씩 나눠서 수집하고, VPN 켜서 하기..!
+주의 사항 : 크롤링 할 때 조금씩 나눠서 수집하고, VPN 켜서 하기..!
 
 매핑 프로세스 :
     1. celeb에 동명이인이 있는 경우
@@ -53,8 +53,8 @@ from tqdm import tqdm
 # db connect
 def db_connection(host_name='ds'):
     host_url = "db.ds.mycelebs.com"
-    user_nm = "j_eungg"
-    passwd = "mycelebs"
+    user_nm =
+    passwd = 
     port_num = 3306
     conn = pymysql.connect(host=host_url, user=user_nm, passwd=passwd, port = port_num, charset='utf8',
                            cursorclass=pymysql.cursors.DictCursor)
